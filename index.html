@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planto - Breathe Natural</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">🌿</div>
+                    <span class="logo-text">Planto.</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#plants" class="nav-link">Plants Type</a></li>
+                    <li><a href="#more" class="nav-link">More</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <button class="icon-btn"><i class="fas fa-search"></i></button>
+                    <button class="icon-btn cart-btn" onclick="window.location.href='cart.html'">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-badge" id="cartBadge">0</span>
+                    </button>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">Breath Natural</h1>
+                    <p class="hero-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary">Explore</button>
+                        <button class="btn-play"><i class="fas fa-play"></i></button>
+                        <span class="live-text">Live Demo...</span>
+                    </div>
+                </div>
+                <div class="hero-card-wrapper">
+                    <div class="featured-card">
+                        <div class="plant-img">
+                            <img src="https://cloudfrontgharpediabucket.gharpedia.com/uploads/2024/10/Peace-Lily-10-1408030003.jpg" alt="Calathea Plant">
+                        </div>
+                        <div class="plant-info">
+                            <p class="plant-tag">Trendy House Plant</p>
+                            <h3 class="plant-name">Calathea plant</h3>
+                            <div class="dots">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot active"></span>
+                            </div>
+                            <button class="btn btn-buy">Buy Now</button>
+                            <button class="btn btn-fav"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Review Badge -->
+            <div class="review-float">
+                <div class="review-header">
+                    <img src="https://i.pravatar.cc/64?img=1" alt="Alena Patel" class="reviewer-img">
+                    <div>
+                        <h4 class="reviewer-name">alena Patel</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trendy Plants Section -->
+    <section class="trendy-section" id="plants">
+        <div class="container">
+            <div class="section-header">
+                <button class="arrow-btn"><i class="fas fa-chevron-left"></i></button>
+                <h2 class="section-title">Our Trendy plants</h2>
+                <button class="arrow-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            
+            <div class="showcase">
+                <div class="showcase-img">
+                    <img src="https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=600&h=732&fit=crop" alt="Plant">
+                </div>
+                <div class="showcase-content">
+                    <div class="content-card">
+                        <h3>For Small Decs Ai Plat</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <div class="price-row">
+                            <span class="price">Rs. 599/-</span>
+                            <div class="btn-group">
+                                <button class="btn btn-primary">Explore</button>
+                                <button class="btn-icon"><i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="showcase reverse">
+                <div class="showcase-content">
+                    <div class="content-card">
+                        <h3>For Fresh Decs Ai Plat</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <div class="price-row">
+                            <span class="price">Rs. 579/-</span>
+                            <div class="btn-group">
+                                <button class="btn btn-primary">Explore</button>
+                                <button class="btn-icon"><i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-img">
+                    <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=732&h=732&fit=crop" alt="Plant">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Selling Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <button class="arrow-btn"><i class="fas fa-chevron-left"></i></button>
+                <h2 class="section-title">Our Top Selling</h2>
+                <button class="arrow-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <button class="arrow-btn"><i class="fas fa-chevron-left"></i></button>
+                <h2 class="section-title">Customer Review</h2>
+                <button class="arrow-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://i.pravatar.cc/88?img=12" alt="Maxn Raval" class="reviewer-img">
+                        <div>
+                            <h4 class="reviewer-name">Maxn Raval</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://i.pravatar.cc/88?img=5" alt="venely k" class="reviewer-img">
+                        <div>
+                            <h4 class="reviewer-name">venely k</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://i.pravatar.cc/88?img=9" alt="Lii thakur" class="reviewer-img">
+                        <div>
+                            <h4 class="reviewer-name">Lii thakur</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best O2 Section -->
+    <section class="o2-section" id="more">
+        <div class="container">
+            <div class="section-header">
+                <button class="arrow-btn"><i class="fas fa-chevron-left"></i></button>
+                <h2 class="section-title">Our Best o2</h2>
+                <button class="arrow-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="o2-showcase">
+                <div class="o2-img">
+                    <img src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=877&h=877&fit=crop" alt="O2 Plant">
+                </div>
+                <div class="o2-content">
+                    <h3>We Have Small And Best O2 Plants Collection's</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="btn btn-primary">Explore</button>
+                    <div class="pagination">
+                        <button class="page-btn"><i class="fas fa-chevron-left"></i></button>
+                        <span class="page-num">01/<small>04</small></span>
+                        <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="carousel-dot active"></span>
+                <span class="carousel-dot"></span>
+                <span class="carousel-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <div class="logo-icon large">🌿</div>
+                        <span class="logo-text">Planto.</span>
+                    </div>
+                    <p class="footer-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i> FB</a>
+                        <a href="#"><i class="fab fa-twitter"></i> TW</a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i> LI</a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Link's</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#plants">Type's Of plant's</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">For Every Update.</h4>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Enter Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <p class="copyright-text">planto © all right reserve</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
