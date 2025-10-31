@@ -1,0 +1,31 @@
+# GitHub Push Instructions for Planto Website
+# ============================================
+
+# Step 1: Create a new repository on GitHub.com
+# - Go to https://github.com/new
+# - Repository name: planto-website
+# - Description: Modern plant e-commerce website with glassmorphism design and shopping cart
+# - Make it Public or Private
+# - DO NOT initialize with README (we already have one)
+# - Click "Create repository"
+
+# Step 2: Run these commands (replace YOUR_GITHUB_USERNAME with your actual username)
+
+# Add remote repository
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/planto-website.git
+
+# Rename branch to main
+git branch -M main
+
+# Push to GitHub
+git push -u origin main
+
+# ============================================
+# That's it! Your project is now on GitHub!
+# ============================================
+
+# Future updates:
+# After making changes, use:
+# git add .
+# git commit -m "Your commit message"
+# git push
